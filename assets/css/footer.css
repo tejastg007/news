@@ -1,0 +1,140 @@
+.footer {
+  position: relative;
+  width: 100%;
+  height: max-content;
+  background-color: black;
+}
+
+.footer1 {
+  position: relative;
+  width: 100%;
+  height: max-content;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us,
+.top-sources,
+.corona-news {
+  padding: 0px 20px;
+}
+
+.about-us {
+  flex: 1;
+  font-weight: 100;
+}
+
+.footer1-title {
+  padding: 25px 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.aboutus-img img {
+  position: relative;
+  width: 200px;
+  margin: 10px 0px;
+}
+
+.aboutus-body {
+  position: relative;
+  margin: 10px 0px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  color: rgb(211, 211, 211);
+}
+
+.aboutus-body p span {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.aboutus-body p:not(.description) {
+  padding: 7px 0;
+}
+
+/* ---------------top sources---------- */
+.top-sources {
+  flex: 1;
+}
+
+.source {
+  display: flex;
+  color: white;
+  font-weight: 100;
+  text-transform: capitalize;
+  padding: 4px 0px;
+}
+
+.source a {
+  color: white;
+  width: 200px;
+  transition: all 0.3s;
+}
+
+.source a:hover {
+  color: rgb(0, 255, 85);
+  transform: translateX(10px);
+}
+
+.top-sources .read-more-button {
+  margin-top: 15px !important;
+}
+
+/* --------------corona news----------- */
+.corona-news {
+  flex: 1;
+}
+
+.corona-news-card {
+  position: relative;
+  width: 100%;
+  height: max-content;
+  color: white;
+  display: flex;
+  font-weight: 200;
+}
+
+.corona-news hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(112, 112, 112);
+    margin: 10px 0px;
+}
+
+.corona-news-card .img {
+  width: 30%;
+  height: max-content;
+  overflow: hidden;
+}
+
+.corona-news-card .img img {
+  object-fit: cover;
+  width: 90px;
+  height: 80px;
+}
+
+.corona-news-card .body {
+  width: 70%;
+  text-transform: capitalize;
+}
+
+.corona-news-card .body p:first-child a {
+  color: white;
+  font-size: 12px;
+  line-height: 20px;
+  transition: color 0.3s;
+}
+.corona-news-card .body p:first-child a:hover {
+    color: #2ab391;
+}
+
+
+.corona-news-card .body p:last-child {
+  font-size: 13px;
+  margin-top: 5px;
+}

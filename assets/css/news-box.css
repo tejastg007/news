@@ -1,0 +1,170 @@
+.news-box {
+  position: relative;
+  width: 100%;
+  height: max-content;
+  display: flex;
+}
+
+.latest-technology {
+  flex: 2;
+  padding-right: 10px;
+  border-right: 1px solid rgb(201, 201, 201);
+}
+
+.latest-technology p.section-title {
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.tech-cards-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.tech-card {
+  position: relative;
+  width: 100%;
+  height: 210px;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.tech-img {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+
+.tech-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+}
+.tech-img:hover img {
+  filter: grayscale(0.2);
+  transform: scale(1.1);
+}
+
+.tech-body {
+  position: relative;
+  flex: 2;
+  padding-left: 20px;
+}
+
+.tech-title {
+  width: 100%;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  transition: color 0.3s;
+}
+
+.tech-title:hover {
+  color: #2ab391;
+}
+
+.tech-date {
+  text-transform: capitalize;
+  padding: 10px 0px;
+  font-size: 13px;
+  color: gray;
+}
+
+.tech-description {
+  color: rgb(58, 58, 58);
+  font-size: 15px;
+  word-spacing: 1px;
+  line-height: 20px;
+}
+/* ------------entertainmenet */
+.latest-entertainment {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.latest-entertainment .title {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.e-card {
+  position: relative;
+  width: 100%;
+  min-height: 250px;
+  background-color: black;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.e-img{
+    position: relative;
+    height: 190px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.e-img img {
+    position: relative;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.e-img img:hover{
+    transform: scale(1.1);
+    filter: grayscale(1);
+}
+
+.e-title {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  color: white;
+  padding: 10px 5px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  line-height: 20px;
+  transition: color 0.4s;
+}
+
+.e-title:hover{
+    color: #2ab391;
+}
+
+.e-date {
+  color: gray;
+  font-size: 13px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.read-more-button{
+    width: max-content;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    background-color: #2ab391;
+    color: white;
+    transition: transform 0.4s;
+}
+
+.read-more-button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}

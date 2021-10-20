@@ -1,0 +1,16 @@
+Options -Indexes
+
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^category/([a-zA-Z]+) category.php?cat=$1 [NC,L]
+RewriteRule ^category/ category.php [NC,L]
+
+
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+    

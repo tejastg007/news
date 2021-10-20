@@ -1,0 +1,22 @@
+@import "index.css";
+@import "nav.css";
+@import "trendingnews.css";
+@import "trendingindia.css";
+@import "news-box.css";
+@import "footer.css";
+@import "category.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "public sans";
+}
+
+a {
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
